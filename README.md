@@ -17,13 +17,13 @@ docker pull thanhleviet/ratt
 2. Run nextflow-ratt with example
 
 ```
-nextflow thanhleviet/nextflow-ratt
+nextflow run thanhleviet/nextflow-ratt --output ./ratt_here
 ```
 
 3. Run nextflow-ratt with your own data
 
 ```
-nextflow thanhleviet/nextflow-ratt --help
+nextflow run thanhleviet/nextflow-ratt --help
 ```
 
 The parameters are similar to the native **ratt** command.
